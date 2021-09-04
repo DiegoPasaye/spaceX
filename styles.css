@@ -1,5 +1,6 @@
 body{
-    background-image: url("/HTML/spaceX/imagenes/fondoEspacio.jpg");
+    background-image: url("/HTML/spaceX/imagenes/fondoEspacio.jpg/");
+    background-color: #000;
 }
 #titulo{
     color: #fff;
