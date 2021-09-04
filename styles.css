@@ -16,6 +16,7 @@ body{
     color: #fff;
     font-family: monospace;
     font-size: 15px;
+    padding-left: 20px;
 }
 #cohete{
     height: 300px;
@@ -23,13 +24,14 @@ body{
     left: 75%;
     animation-name: cohete;
     animation-duration: 5s;
+    animation-delay: initial;
     animation-iteration-count: infinite;
 }
 @keyframes cohete{
     50%{
-        bottom: 100px;
+        bottom: 0px;
     }
     100%{
-        bottom: 600px;
+        bottom: 700px;
     }
 }
