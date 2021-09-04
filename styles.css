@@ -1,0 +1,35 @@
+body{
+    background-image: url("/HTML/spaceX/imagenes/fondoEspacio.jpg")
+}
+#titulo{
+    color: #fff;
+    font-size: 70px;
+    position: relative;
+    left: 8%;
+    top: 40px;
+    font-family: monospace;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    z-index: 1;
+}
+#textoPrincipal{
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+}
+#cohete{
+    height: 300px;
+    position: relative;
+    left: 75%;
+    animation-name: cohete;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cohete{
+    50%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: 600px;
+    }
+}
